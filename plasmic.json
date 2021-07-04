@@ -1,0 +1,180 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "cMaVBwcHAKAbUiZW5BBnSf",
+      "projectName": "Blank project",
+      "version": "latest",
+      "cssFilePath": "plasmic/blank_project/plasmic_blank_project.module.css",
+      "components": [
+        {
+          "id": "-e-y0VLmjCqc",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "cMaVBwcHAKAbUiZW5BBnSf",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "Homepage.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "8aOTU7GYNG",
+          "name": "Ttt1",
+          "type": "managed",
+          "projectId": "cMaVBwcHAKAbUiZW5BBnSf",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicTtt1.tsx",
+          "importSpec": {
+            "modulePath": "Ttt1.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicTtt1.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "KLG_AqYkhWj",
+          "name": "Select",
+          "type": "managed",
+          "projectId": "cMaVBwcHAKAbUiZW5BBnSf",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicSelect.tsx",
+          "importSpec": {
+            "modulePath": "Select.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicSelect.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "select"
+        },
+        {
+          "id": "RYSuD0jj_2f",
+          "name": "Select__Option",
+          "type": "managed",
+          "projectId": "cMaVBwcHAKAbUiZW5BBnSf",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicSelect__Option.tsx",
+          "importSpec": {
+            "modulePath": "Select__Option.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicSelect__Option.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "select-option"
+        },
+        {
+          "id": "AZZh7FhC7qj",
+          "name": "Select__OptionGroup",
+          "type": "managed",
+          "projectId": "cMaVBwcHAKAbUiZW5BBnSf",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicSelect__OptionGroup.tsx",
+          "importSpec": {
+            "modulePath": "Select__OptionGroup.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicSelect__OptionGroup.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "select-option-group"
+        },
+        {
+          "id": "ArgYLLrqxca",
+          "name": "Select__Overlay",
+          "type": "managed",
+          "projectId": "cMaVBwcHAKAbUiZW5BBnSf",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicSelect__Overlay.tsx",
+          "importSpec": {
+            "modulePath": "Select__Overlay.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicSelect__Overlay.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "triggered-overlay"
+        },
+        {
+          "id": "5s3e59b0eE9",
+          "name": "Checkbox",
+          "type": "managed",
+          "projectId": "cMaVBwcHAKAbUiZW5BBnSf",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicCheckbox.tsx",
+          "importSpec": {
+            "modulePath": "Checkbox.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicCheckbox.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "checkbox"
+        },
+        {
+          "id": "s2Xq9QcLE2p",
+          "name": "Switch",
+          "type": "managed",
+          "projectId": "cMaVBwcHAKAbUiZW5BBnSf",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicSwitch.tsx",
+          "importSpec": {
+            "modulePath": "Switch.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicSwitch.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "switch"
+        }
+      ],
+      "icons": [
+        {
+          "id": "Xg8QjnlUDBQ",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Icon2.tsx"
+        },
+        {
+          "id": "TaoxgNKaCnR",
+          "name": "Icon3Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Icon3.tsx"
+        },
+        {
+          "id": "mU9o3tCmIdm",
+          "name": "CheckIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Check.tsx"
+        },
+        {
+          "id": "yayIKaGxSA-",
+          "name": "IndeterminateIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Indeterminate.tsx"
+        }
+      ],
+      "images": [],
+      "codeComponents": [],
+      "projectApiToken": "Ju4vroozs4l4FKQpvIeRDf94mE9ikVgbzzUQtkXmjqjcMrIcxnsaXpJ6Fudqhjwnxq28aPU8l9I5gNEOrIg"
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "xw-4BtqyeBrD",
+        "name": "Screen",
+        "projectId": "cMaVBwcHAKAbUiZW5BBnSf",
+        "contextFilePath": "plasmic/blank_project/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "cliVersion": "0.1.157",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.157/dist/plasmic.schema.json"
+}

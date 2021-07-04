@@ -1,0 +1,19 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.select:global(.__wab_instance) {
+  position: relative;
+}
+.option__siq:global(.__wab_instance) {
+  position: relative;
+}
+.option__zbnzw:global(.__wab_instance) {
+  position: relative;
+}
+.checkbox:global(.__wab_instance) {
+  position: relative;
+}
